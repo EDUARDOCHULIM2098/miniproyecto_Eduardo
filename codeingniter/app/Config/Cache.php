@@ -22,7 +22,7 @@ class Cache extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $handler = 'file';
+	public $baseURL = 'http://cerounodigital.com/btc04/eduardo/codeingniter/public/';
 
 	/**
 	 * --------------------------------------------------------------------------
