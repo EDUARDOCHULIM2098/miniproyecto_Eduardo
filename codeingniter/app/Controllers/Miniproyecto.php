@@ -10,12 +10,12 @@ $Model=new GeneralModel();
 $mensaje=session('mensaje'); 	
 $datos=$gModel->listarTodo(); 
 $data=["datos"->$datos, 
-"mensaje"=>$mensaje =
+"mensaje"=>$mensaje 
        
 ];
 return view('listado',$data);
 
-]	
+}	
 	
 public function  obtenerDatos($id){
 $gModel=new GeneralModel(); 
@@ -25,7 +25,7 @@ $respuesta=>gModel->obtenerInformacion($data){
 $datos=["datos"=>$respuesta];
 return view('actualiar',$datos);
 	
-{
+}
 
 public function insertar(){ 
 $gModel=new GeneralModel(); 
